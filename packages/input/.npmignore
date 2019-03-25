@@ -1,0 +1,4 @@
+*.spec.js
+*.story.js
+src
+coverage
