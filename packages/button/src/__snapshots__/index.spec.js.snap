@@ -8,7 +8,7 @@ exports[`Button renders correctly 1`] = `
   cursor: pointer;
   font-size: 1rem;
   font-weight: 300;
-  padding: 9px 36px;
+  padding: 8px 32px;
 }
 
 <button
