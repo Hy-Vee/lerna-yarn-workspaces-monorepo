@@ -3,7 +3,7 @@
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
 -   🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
--   🧶 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
+-   📦 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
 -   🚀 [React](https://reactjs.org/)  -  JavaScript library for user interfaces
 -   💅 [styled-components](https://www.styled-components.com/)  -  CSS in JS elegance
 -   🛠 [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
