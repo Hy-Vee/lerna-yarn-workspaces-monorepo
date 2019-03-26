@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {spacing} from '@hy-vee/theme';
+import {spacing} from 'theme';
 
 const Button = styled.button`
     background: red;

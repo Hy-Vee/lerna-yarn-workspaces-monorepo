@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {spacing} from '@hy-vee/theme';
+import {spacing} from 'theme';
 
 const Input = styled.input`
     border: 1px solid #ccc;
