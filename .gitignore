@@ -1,8 +1,5 @@
-*.log
+.log
 .DS_Store
-.idea
 .jest-*
 lib
 node_modules
-.cache
-coverage
