@@ -2,13 +2,13 @@
 
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
--   🐉 [Lerna](https://medium.com/r/?url=https%3A%2F%2Flernajs.io%2F)  - The Monorepo manager
--   🧶 [Yarn Workspaces](https://medium.com/r/?url=https%3A%2F%2Fyarnpkg.com%2Flang%2Fen%2Fdocs%2Fworkspaces%2F)  -  Sane multi-package management
--   🚀 [React](https://medium.com/r/?url=https%3A%2F%2Freactjs.org%2F)  -  JavaScript library for user interfaces
--   💅 [styled-components](https://medium.com/r/?url=https%3A%2F%2Fwww.styled-components.com%2F)  -  CSS in JS elegance
--   🛠 [Babel](https://medium.com/r/?url=https%3A%2F%2Fbabeljs.io%2F)  -  Compiles next-gen JavaScript
--   📖 [Storybook](https://medium.com/r/?url=https%3A%2F%2Fstorybook.js.org%2F) - UI Component Environment
--   🃏 [Jest](https://medium.com/r/?url=https%3A%2F%2Fjestjs.io%2F)  -  Unit/Snapshot Testing
+-   🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
+-   🧶 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
+-   🚀 [React](https://reactjs.org/)  -  JavaScript library for user interfaces
+-   💅 [styled-components](https://www.styled-components.com/)  -  CSS in JS elegance
+-   🛠 [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
+-   📖 [Storybook](https://storybook.js.org/) - UI Component Environment
+-   🃏 [Jest](https://jestjs.io/)  -  Unit/Snapshot Testing
 
 ## Usage
 

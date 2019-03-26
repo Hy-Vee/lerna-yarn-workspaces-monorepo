@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {spacing} from '@hy-vee/theme';
 
 const Input = styled.input`
     border: 1px solid #ccc;
@@ -6,7 +7,7 @@ const Input = styled.input`
     box-sizing: border-box;
     font-size: 16px;
     font-weight: 300;
-    padding: 10px 40px 10px 10px;
+    padding: ${spacing.medium};
     width: 150px;
 `;
 
