@@ -1,7 +1,7 @@
 module.exports = {
     cacheDirectory: '.jest-cache',
     coverageDirectory: '.jest-coverage',
-    coveragePathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/'],
+    coveragePathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/', '<rootDir>/packages/(?:.+?)/dist/'],
     coverageReporters: ['html', 'text'],
     coverageThreshold: {
         global: {
@@ -10,6 +10,5 @@ module.exports = {
             lines: 100,
             statements: 100
         }
-    },
-    testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/']
+    }
 };

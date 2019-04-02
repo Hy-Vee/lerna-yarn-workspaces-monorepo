@@ -1,6 +1,6 @@
 {
     "name": "theme",
     "version": "1.0.0",
-    "main": "lib/index.js",
+    "main": "dist/index.js",
     "module": "src/index.js"
 }
