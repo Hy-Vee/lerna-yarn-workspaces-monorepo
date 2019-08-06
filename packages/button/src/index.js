@@ -50,9 +50,7 @@ const Button = styled.button`
 `;
 
 Button.propTypes = {
-    /** When a button is in the loading state you can supply custom text */
     disabled: PropTypes.bool.isRequired,
-    /** When a button is in the loading state you can supply custom text */
     variant: PropTypes.oneOf(Object.values(APPEARANCES))
 };
 

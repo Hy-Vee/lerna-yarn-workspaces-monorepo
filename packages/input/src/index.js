@@ -28,9 +28,7 @@ const Input = styled.input`
 `;
 
 Input.propTypes = {
-    /** TODO */
     disabled: PropTypes.bool,
-    label: PropTypes.string,
     placeholder: PropTypes.string
 };
 
