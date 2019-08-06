@@ -10,4 +10,16 @@ describe('Input', () => {
 
         expect(tree).toMatchSnapshot();
     });
+
+    test('placeholder', () => {
+        const tree = renderer.create(<Input placeholder="test" />).toJSON();
+
+        expect(tree).toMatchSnapshot();
+    });
+
+    test('disabled', () => {
+        const tree = renderer.create(<Input disabled />).toJSON();
+
+        expect(tree).toMatchSnapshot();
+    });
 });
