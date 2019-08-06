@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+.c0 {
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 38px;
+  min-width: 200px;
+  outline: none;
+  overflow: hidden;
+  padding: 0px 32px;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.c0:hover {
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+<button
+  className="c0"
+  disabled={false}
+>
+  Test
+</button>
+`;

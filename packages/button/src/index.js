@@ -1,14 +1,64 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 import {spacing} from 'theme';
+import PropTypes from 'prop-types';
+
+const APPEARANCES = {
+    PRIMARY: 'primary',
+    SECONDARY: 'secondary'
+};
 
 const Button = styled.button`
-    background: red;
-    color: #fff;
+    background-color: #000;
     border-radius: 4px;
+    color: #fff;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 300;
-    padding: ${spacing.small} ${spacing.extraLarge};
+    flex-shrink: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    height: 40px;
+    line-height: 38px;
+    min-width: 200px;
+    outline: none;
+    overflow: hidden;
+    padding: 0px ${spacing.extraLarge};
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s ease 0s;
+    user-select: none;
+    white-space: nowrap;
+
+    :hover {
+        color: #000;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+
+    ${(props) =>
+        props.variant === APPEARANCES.SECONDARY &&
+        css`
+            color: #666;
+            background-color: white;
+            border: 1px solid #eaeaea;
+
+            :hover {
+                color: #fff;
+                border: 1px solid #000;
+                background-color: #000;
+            }
+        `}
 `;
+
+Button.propTypes = {
+    /** When a button is in the loading state you can supply custom text */
+    disabled: PropTypes.bool.isRequired,
+    /** When a button is in the loading state you can supply custom text */
+    variant: PropTypes.oneOf(Object.values(APPEARANCES))
+};
+
+Button.defaultProps = {
+    disabled: false,
+    variant: APPEARANCES.PRIMARY
+};
 
 export default Button;
