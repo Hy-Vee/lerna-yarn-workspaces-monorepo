@@ -1,6 +1,8 @@
-# Creating a Monorepo with Lerna & Yarn Workspaces
+# Monorepo with Lerna & Yarn Workspaces
 
 > A Monorepo with multiple packages and a shared build, test, and release process.
+
+![image](https://user-images.githubusercontent.com/9113740/62553219-8e7ede00-b834-11e9-8abc-bbd7bf51e46b.png)
 
 -   🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
 -   📦 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management

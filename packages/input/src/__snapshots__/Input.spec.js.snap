@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input disabled 1`] = `
+.c0 {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  box-sizing: border-box;
+  caret-color: #000;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 26px;
+  padding: 16px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #999999;
+  background-color: #fafafa;
+  cursor: not-allowed;
+}
+
+<input
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`Input placeholder 1`] = `
+.c0 {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  box-sizing: border-box;
+  caret-color: #000;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 26px;
+  padding: 16px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+<input
+  className="c0"
+  disabled={false}
+  placeholder="test"
+/>
+`;
+
+exports[`Input renders correctly 1`] = `
+.c0 {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  box-sizing: border-box;
+  caret-color: #000;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 26px;
+  padding: 16px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+<input
+  className="c0"
+  disabled={false}
+/>
+`;
