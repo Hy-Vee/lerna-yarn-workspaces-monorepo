@@ -13,14 +13,14 @@ const Button = styled.button`
     color: #fff;
     cursor: pointer;
     flex-shrink: 0;
-    font-size: 0.875rem;
+    font-size: 0.88rem;
     font-weight: 500;
     height: 40px;
     line-height: 38px;
     min-width: 200px;
     outline: none;
     overflow: hidden;
-    padding: 0px ${spacing.extraLarge};
+    padding: 0 ${spacing.extraLarge};
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
