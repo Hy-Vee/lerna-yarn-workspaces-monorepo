@@ -1,4 +1,5 @@
 import styled, {css} from 'styled-components';
+import React from 'react';
 import {spacing} from 'theme';
 import PropTypes from 'prop-types';
 
@@ -7,7 +8,7 @@ const APPEARANCES = {
     SECONDARY: 'secondary'
 };
 
-const Button = styled.button`
+const StyledButton = styled.button`
     background-color: #000;
     border-radius: 4px;
     color: #fff;
@@ -48,6 +49,8 @@ const Button = styled.button`
             }
         `}
 `;
+
+const Button = (props) => <StyledButton {...props} />;
 
 Button.propTypes = {
     disabled: PropTypes.bool.isRequired,
