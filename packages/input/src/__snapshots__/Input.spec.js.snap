@@ -53,10 +53,14 @@ exports[`Input disabled 1`] = `
 >
   <label
     className="c1"
-  />
+    htmlFor="email"
+  >
+    Email Address
+  </label>
   <input
     className="c2"
     disabled={true}
+    id="email"
     type="text"
   />
 </div>
@@ -112,11 +116,15 @@ exports[`Input placeholder 1`] = `
 >
   <label
     className="c1"
-  />
+    htmlFor="email"
+  >
+    Email Address
+  </label>
   <input
     className="c2"
     disabled={false}
-    placeholder="test"
+    id="email"
+    placeholder="user@gmail.com"
     type="text"
   />
 </div>
@@ -172,10 +180,14 @@ exports[`Input renders correctly 1`] = `
 >
   <label
     className="c1"
-  />
+    htmlFor="email"
+  >
+    Email Address
+  </label>
   <input
     className="c2"
     disabled={false}
+    id="email"
     type="text"
   />
 </div>
