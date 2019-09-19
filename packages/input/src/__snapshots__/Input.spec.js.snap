@@ -2,6 +2,17 @@
 
 exports[`Input disabled 1`] = `
 .c0 {
+  width: 100%;
+}
+
+.c1 {
+  color: #868686;
+  font-family: 'Fira Sans';
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.c2 {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -13,22 +24,61 @@ exports[`Input disabled 1`] = `
   font-size: 14px;
   height: 40px;
   line-height: 26px;
-  padding: 16px;
-  margin-bottom: 8px;
+  padding: 10px;
+  margin: 4px 0 8px;
   width: 100%;
   color: #999999;
   background-color: #fafafa;
   cursor: not-allowed;
 }
 
-<input
+.c2::-webkit-input-placeholder {
+  color: #999;
+}
+
+.c2::-moz-placeholder {
+  color: #999;
+}
+
+.c2:-ms-input-placeholder {
+  color: #999;
+}
+
+.c2::placeholder {
+  color: #999;
+}
+
+<div
   className="c0"
-  disabled={true}
-/>
+>
+  <label
+    className="c1"
+    htmlFor="email"
+  >
+    Email Address
+  </label>
+  <input
+    className="c2"
+    disabled={true}
+    id="email"
+    type="text"
+  />
+</div>
 `;
 
 exports[`Input placeholder 1`] = `
 .c0 {
+  width: 100%;
+}
+
+.c1 {
+  color: #868686;
+  font-family: 'Fira Sans';
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.c2 {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -40,20 +90,59 @@ exports[`Input placeholder 1`] = `
   font-size: 14px;
   height: 40px;
   line-height: 26px;
-  padding: 16px;
-  margin-bottom: 8px;
+  padding: 10px;
+  margin: 4px 0 8px;
   width: 100%;
 }
 
-<input
+.c2::-webkit-input-placeholder {
+  color: #999;
+}
+
+.c2::-moz-placeholder {
+  color: #999;
+}
+
+.c2:-ms-input-placeholder {
+  color: #999;
+}
+
+.c2::placeholder {
+  color: #999;
+}
+
+<div
   className="c0"
-  disabled={false}
-  placeholder="test"
-/>
+>
+  <label
+    className="c1"
+    htmlFor="email"
+  >
+    Email Address
+  </label>
+  <input
+    className="c2"
+    disabled={false}
+    id="email"
+    placeholder="user@gmail.com"
+    type="text"
+  />
+</div>
 `;
 
 exports[`Input renders correctly 1`] = `
 .c0 {
+  width: 100%;
+}
+
+.c1 {
+  color: #868686;
+  font-family: 'Fira Sans';
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.c2 {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -65,13 +154,41 @@ exports[`Input renders correctly 1`] = `
   font-size: 14px;
   height: 40px;
   line-height: 26px;
-  padding: 16px;
-  margin-bottom: 8px;
+  padding: 10px;
+  margin: 4px 0 8px;
   width: 100%;
 }
 
-<input
+.c2::-webkit-input-placeholder {
+  color: #999;
+}
+
+.c2::-moz-placeholder {
+  color: #999;
+}
+
+.c2:-ms-input-placeholder {
+  color: #999;
+}
+
+.c2::placeholder {
+  color: #999;
+}
+
+<div
   className="c0"
-  disabled={false}
-/>
+>
+  <label
+    className="c1"
+    htmlFor="email"
+  >
+    Email Address
+  </label>
+  <input
+    className="c2"
+    disabled={false}
+    id="email"
+    type="text"
+  />
+</div>
 `;

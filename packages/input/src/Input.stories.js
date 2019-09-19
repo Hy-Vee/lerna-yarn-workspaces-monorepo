@@ -7,6 +7,6 @@ export default {
     title: 'Design System|Input'
 };
 
-export const placeholder = () => <Input placeholder="Hello World!" />;
+export const placeholder = () => <Input id="email" label="Email" placeholder="user@gmail.com" />;
 
-export const disabled = () => <Input disabled placeholder="Hello World!" />;
+export const disabled = () => <Input disabled id="email" label="Email" placeholder="user@gmail.com" />;
