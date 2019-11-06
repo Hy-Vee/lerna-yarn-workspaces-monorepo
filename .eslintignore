@@ -1,0 +1,5 @@
+# Builded files
+**/lib/
+
+# Node.js modules
+/node_modules/
