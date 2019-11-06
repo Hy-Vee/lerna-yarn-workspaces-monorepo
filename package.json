@@ -1,69 +1,69 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "engines": {
-    "node": ">=10.15.0",
-    "yarn": ">=1.5.1"
-  },
-  "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces",
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
-    "coverage": "jest --coverage",
-    "deploy-storybook": "storybook-to-ghpages",
-    "dev": "start-storybook -p 5555",
-    "lint:js": "eslint . --ext .js",
-    "lint:styles": "stylelint './packages/**/*.js'",
-    "lint": "yarn lint:js && yarn lint:styles",
-    "prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
-    "lerna-publish": "lerna publish",
-    "test": "yarn build && yarn lint && yarn coverage",
-    "unit": "jest"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "engines": {
+        "node": ">=10.15.0",
+        "yarn": ">=1.5.1"
+    },
+    "scripts": {
+        "bootstrap": "lerna bootstrap --use-workspaces",
+        "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
+        "coverage": "jest --coverage",
+        "deploy-storybook": "storybook-to-ghpages",
+        "dev": "start-storybook -p 5555",
+        "lint:js": "eslint . --ext .js",
+        "lint:styles": "stylelint './packages/**/*.js'",
+        "lint": "yarn lint:js && yarn lint:styles",
+        "prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
+        "lerna-publish": "lerna publish",
+        "test": "yarn build && yarn lint && yarn coverage",
+        "unit": "jest"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged && yarn test"
+        }
+    },
+    "lint-staged": {
+        "*.{js,json,md,yml}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "@babel/cli": "7.5.5",
+        "@babel/core": "7.5.5",
+        "@babel/preset-env": "7.5.5",
+        "@babel/preset-react": "7.0.0",
+        "@storybook/addon-docs": "^5.2.0-rc.0",
+        "@storybook/addon-info": "^5.2.0-rc.0",
+        "@storybook/react": "^5.2.0-rc.0",
+        "@storybook/storybook-deployer": "2.8.1",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-jest": "24.9.0",
+        "babel-loader": "8.0.6",
+        "babel-plugin-styled-components": "1.10.6",
+        "eslint": "6.2.2",
+        "eslint-config-get-off-my-lawn": "5.0.1",
+        "husky": "3.0.2",
+        "jest": "24.9.0",
+        "jest-haste-map": "24.9.0",
+        "jest-resolve": "24.9.0",
+        "jest-styled-components": "6.3.3",
+        "lerna": "3.16.4",
+        "lint-staged": "9.2.1",
+        "prettier": "1.18.2",
+        "react": "16.9.0",
+        "react-dom": "16.9.0",
+        "react-test-renderer": "16.9.0",
+        "styled-components": "4.3.2",
+        "stylelint": "10.1.0",
+        "stylelint-config-get-off-my-lawn": "2.0.0",
+        "stylelint-config-styled-components": "0.1.1",
+        "stylelint-processor-styled-components": "1.8.0",
+        "webpack": "4.39.3"
     }
-  },
-  "lint-staged": {
-    "*.{js,json,md,yml}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "devDependencies": {
-    "@babel/cli": "7.5.5",
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
-    "@babel/preset-react": "7.0.0",
-    "@storybook/addon-docs": "^5.2.0-rc.0",
-    "@storybook/addon-info": "^5.2.0-rc.0",
-    "@storybook/react": "^5.2.0-rc.0",
-    "@storybook/storybook-deployer": "2.8.1",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "24.9.0",
-    "babel-loader": "8.0.6",
-    "babel-plugin-styled-components": "1.10.6",
-    "eslint": "6.2.2",
-    "eslint-config-get-off-my-lawn": "5.0.1",
-    "husky": "3.0.2",
-    "jest": "24.9.0",
-    "jest-haste-map": "24.9.0",
-    "jest-resolve": "24.9.0",
-    "jest-styled-components": "6.3.3",
-    "lerna": "3.16.4",
-    "lint-staged": "9.2.1",
-    "prettier": "1.18.2",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "react-test-renderer": "16.9.0",
-    "styled-components": "4.3.2",
-    "stylelint": "10.1.0",
-    "stylelint-config-get-off-my-lawn": "2.0.0",
-    "stylelint-config-styled-components": "0.1.1",
-    "stylelint-processor-styled-components": "1.8.0",
-    "webpack": "4.39.3"
-  }
 }
