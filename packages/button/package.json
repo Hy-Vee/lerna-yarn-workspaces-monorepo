@@ -5,14 +5,14 @@
     "module": "src/index.js",
     "dependencies": {
         "prop-types": "15.7.2",
-        "react": "16.12.0",
-        "react-dom": "16.12.0",
-        "styled-components": "4.4.1",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "styled-components": "5.2.0",
         "theme": "1.0.0"
     },
     "peerDependencies": {
-        "react": "^15.0.0 || ^16.0.0",
-        "react-dom": "^15.0.0 || ^16.0.0",
-        "styled-components": "^4.0.0"
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "styled-components": "^5.0.0"
     }
 }
