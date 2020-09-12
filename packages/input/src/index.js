@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
 
 const StyledLabel = styled.label`
     color: #868686;
-    font-family: 'Fira Sans';
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
     font-size: 0.8rem;
     text-transform: uppercase;
 `;
