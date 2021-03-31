@@ -45,3 +45,18 @@ All formatting and linting should be taken care of for you using [stylelint](htt
 -   [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 -   [webstorm-styled-components](https://github.com/styled-components/webstorm-styled-components)
 -   [Other IDEs](https://www.styled-components.com/docs/tooling#syntax-highlighting)
+
+## FAQ
+
+### Why the limitation on yarn versions?
+
+[It's a known issue](https://github.com/yarnpkg/yarn/issues/7807) that yarn workspaces using yarn versions > `1.18.0` can produce the following false positive error message when adding or updating dependencies in packages.
+
+```
+error An unexpected error occurred: "expected workspace package to exist for "XXX".
+```
+
+To guard against this, we've:
+
+-   Changed `package.json` to enforce a yarn version range.
+-   Added a `.yvmrc` file, so if you're using [yvm](https://yvm.js.org/docs/overview) to manage your yarn versions (like [nvm](https://github.com/nvm-sh/nvm) for node version), it'll pick up the yarn version automatically.

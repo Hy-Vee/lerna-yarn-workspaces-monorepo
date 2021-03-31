@@ -1,4 +1,4 @@
-.log
+*.log
 .DS_Store
 .jest-*
 lib
