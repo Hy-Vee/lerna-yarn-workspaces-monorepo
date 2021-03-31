@@ -6,7 +6,7 @@
     ],
     "engines": {
         "node": ">=10.15.0",
-        "yarn": ">=1.5.1"
+        "yarn": ">=1.5.1 <=1.18.0"
     },
     "scripts": {
         "bootstrap": "lerna bootstrap --use-workspaces",
