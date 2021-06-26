@@ -1,12 +1,11 @@
 {
-    "name": "root",
+    "name": "mmoran-design-system",
     "private": true,
     "workspaces": [
         "packages/*"
     ],
     "engines": {
-        "node": ">=10.15.0",
-        "yarn": ">=1.5.1 <=1.18.0"
+        "node": ">=10.15.0"
     },
     "scripts": {
         "bootstrap": "lerna bootstrap --use-workspaces",
