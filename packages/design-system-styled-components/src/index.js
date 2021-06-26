@@ -1,6 +1,6 @@
-import Input from './input/src';
-import Textarea from './textarea/src';
-import {spacing, H1, H2, P} from './theme/src';
-import Button from './button/src';
+import Input from './input';
+import Textarea from './textarea';
+import {spacing, H1, H2, P} from './theme';
+import Button from './button';
 
 export {Button, Input, Textarea, spacing, H1, H2, P};

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
 
-import * as Theme from '.';
+import * as Theme from './index';
 
 const SpacingTable = styled.table`
     tr {

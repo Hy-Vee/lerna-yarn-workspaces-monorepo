@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import Input from '.';
+import Input from './index';
 
 describe('Input', () => {
     test('renders correctly', () => {
