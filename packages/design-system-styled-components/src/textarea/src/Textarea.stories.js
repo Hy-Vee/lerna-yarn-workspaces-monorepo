@@ -4,7 +4,7 @@ import Textarea from '.';
 
 export default {
     component: Textarea,
-    title: 'Design System/Textarea'
+    title: 'JS Design System/Textarea'
 };
 
 export const textarea = () => <Textarea placeholder={'hello there!'} />;

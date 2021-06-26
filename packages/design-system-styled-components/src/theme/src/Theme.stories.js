@@ -37,7 +37,7 @@ const SpacingBlock = styled.div`
 
 export default {
     component: Theme,
-    title: 'Design System/Theme'
+    title: 'JS Design System/Theme'
 };
 
 export const spacing = () => (
