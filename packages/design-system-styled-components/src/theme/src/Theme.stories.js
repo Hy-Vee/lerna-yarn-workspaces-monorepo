@@ -57,3 +57,34 @@ export const spacing = () => (
         </tbody>
     </SpacingTable>
 );
+
+export const typography = () => (
+    <SpacingTable>
+        <tbody>
+            <tr>
+                <td>
+                    <Strong>{'H1'}</Strong>
+                </td>
+                <td>
+                    <Theme.H1>{'H1 Heading'}</Theme.H1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Strong>{'H2'}</Strong>
+                </td>
+                <td>
+                    <Theme.H2>{'H2 Heading'}</Theme.H2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Strong>{'P'}</Strong>
+                </td>
+                <td>
+                    <Theme.P>{'Paragraph Text'}</Theme.P>
+                </td>
+            </tr>
+        </tbody>
+    </SpacingTable>
+);
