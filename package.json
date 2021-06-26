@@ -1,6 +1,5 @@
 {
     "name": "mmoran-design-system",
-    "private": true,
     "workspaces": [
         "packages/*"
     ],
