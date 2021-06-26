@@ -1,5 +1,5 @@
 {
-    "name": "input",
+    "name": "design-system-styled-components",
     "version": "1.0.2",
     "main": "lib/index.js",
     "module": "src/input/src/index.js",
@@ -7,8 +7,7 @@
         "prop-types": "15.7.2",
         "react": "16.13.1",
         "react-dom": "16.13.1",
-        "styled-components": "5.2.0",
-        "theme": "1.0.0"
+        "styled-components": "5.2.0"
     },
     "peerDependencies": {
         "react": "^16.0.0",
