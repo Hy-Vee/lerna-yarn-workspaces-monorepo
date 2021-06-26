@@ -1,4 +1,5 @@
 /* eslint-disable sort-keys */
+
 export const spacing = {
     extraLarge: '32px',
     large: '24px',
@@ -6,4 +7,5 @@ export const spacing = {
     small: '8px',
     extraSmall: '4px'
 };
+
 /* eslint-enable */

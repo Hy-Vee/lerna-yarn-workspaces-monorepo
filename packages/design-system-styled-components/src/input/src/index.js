@@ -1,7 +1,8 @@
 import styled, {css} from 'styled-components';
 import React from 'react';
-import {spacing} from 'theme';
 import PropTypes from 'prop-types';
+
+import {spacing} from '../../theme/src';
 
 const StyledContainer = styled.div`
     width: 100%;
