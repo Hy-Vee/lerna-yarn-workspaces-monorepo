@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
 const StyledLabel = styled.label`
     color: #868686;
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
 `;
 
