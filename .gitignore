@@ -3,3 +3,4 @@
 .jest-*
 lib
 node_modules
+.idea

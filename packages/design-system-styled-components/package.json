@@ -2,7 +2,7 @@
     "name": "design-system-styled-components",
     "version": "1.0.2",
     "main": "lib/index.js",
-    "module": "src/input/src/index.js",
+    "module": "src/index.js",
     "dependencies": {
         "prop-types": "15.7.2",
         "react": "16.13.1",
