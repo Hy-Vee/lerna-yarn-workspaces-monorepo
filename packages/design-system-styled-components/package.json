@@ -1,7 +1,7 @@
 {
     "name": "design-system-styled-components",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "main": "lib/index.js",
     "module": "src/index.js",
     "dependencies": {
