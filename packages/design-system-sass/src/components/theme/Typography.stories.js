@@ -35,5 +35,5 @@ export const typography = () => (
 
 export default {
     component: Typography,
-    title: 'Sass Design System/Typography'
+    title: 'Sass Design System/Theme'
 };
