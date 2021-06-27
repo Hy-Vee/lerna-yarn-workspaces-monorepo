@@ -1,0 +1,26 @@
+{
+    "name": "design-system-sass",
+    "private": true,
+    "license": "MIT",
+    "version": "1.1.4",
+    "main": "lib/index.js",
+    "module": "src/index.js",
+    "dependencies": {
+        "prop-types": "15.7.2",
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+    },
+    "devDependencies": {
+        "sass": "^1.35.1",
+        "sass-loader": "^12.1.0",
+        "webpack": "^5.40.0"
+    },
+    "peerDependencies": {
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "scripts": {
+        "build": "babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js",
+        "sass": "sass src/styles/styles.scss:src/styles/output.css"
+    }
+}
