@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ds-btn-base {
+    @apply  rounded-md cursor-pointer flex-shrink-0 text-sm font-medium h-11 leading-8 outline-none overflow-hidden px-6 text-center no-underline capitalize transition duration-250 ease-in-out whitespace-nowrap hover:border;
+}
+
+.btn-primary {
+    @apply bg-black text-white hover:text-black hover:bg-white hover:border hover:border-black;
+}
+
+.btn-secondary {
+    @apply bg-white border border-gray-200 text-gray-500 hover:text-white hover:bg-black hover:border-black;
+}

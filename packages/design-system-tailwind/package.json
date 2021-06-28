@@ -1,0 +1,29 @@
+{
+    "name": "design-system-tailwind",
+    "private": true,
+    "license": "MIT",
+    "version": "1.1.4",
+    "main": "lib/index.js",
+    "module": "src/index.js",
+    "dependencies": {
+        "autoprefixer": "^10.2.6",
+        "postcss": "^8.3.5",
+        "prop-types": "15.7.2",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "styled-components": "5.2.0",
+        "tailwindcss": "^2.2.4"
+    },
+    "devDependencies": {
+        "jest-styled-components": "7.0.3",
+        "styled-components": "5.2.0"
+    },
+    "peerDependencies": {
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "styled-components": "^5.0.0"
+    },
+    "scripts": {
+        "build": "babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js"
+    }
+}
